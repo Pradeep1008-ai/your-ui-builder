@@ -85,7 +85,7 @@ const ChatInterface = () => {
               {/* Action Buttons */}
               <div className="flex items-center gap-2">
                 <Button variant="glass" size="icon" className="rounded-full w-12 h-12">
-                  <Star className="w-5 h-5" />
+                  <Star className="w-5 h-5 text-white/70" />
                 </Button>
                 
                 <div className="flex items-center gap-2">
