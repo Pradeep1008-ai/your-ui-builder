@@ -26,7 +26,6 @@ const ChatInterface = () => {
               <ArrowLeft className="w-4 h-4" />
               Back
             </Button>
-            <span className="text-sm text-white/70">Chat screen</span>
           </div>
           
           <div className="text-center">
@@ -34,7 +33,6 @@ const ChatInterface = () => {
           </div>
           
           <div className="flex items-center gap-2">
-            <span className="text-sm text-white/70">Delete Room</span>
             <Button variant="accent" size="sm" className="gap-2">
               <Trash2 className="w-4 h-4" />
               Delete Room
@@ -68,7 +66,6 @@ const ChatInterface = () => {
         <div className="p-8">
           <div className="max-w-4xl mx-auto">
             <div className="mb-4 text-center">
-              <span className="text-white/70 text-sm">Type your message</span>
             </div>
             
             <div className="flex items-center gap-4">
@@ -87,11 +84,6 @@ const ChatInterface = () => {
                 <Button variant="glass" size="icon" className="rounded-full w-12 h-12">
                   <Star className="w-5 h-5 text-white/70" />
                 </Button>
-                
-                <div className="flex items-center gap-2">
-                  <span className="text-white/70 text-sm">Improve</span>
-                  <span className="text-white/70 text-sm">Send</span>
-                </div>
                 
                 <Button variant="glass" size="icon" className="rounded-full w-12 h-12">
                   <ArrowRight className="w-5 h-5" />
