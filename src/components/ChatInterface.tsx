@@ -33,7 +33,7 @@ const ChatInterface = () => {
           </div>
           
           <div className="flex items-center gap-2">
-            <Button variant="accent" size="sm" className="gap-2">
+            <Button variant="glass" size="sm" className="gap-2">
               <Trash2 className="w-4 h-4" />
               Delete Room
             </Button>
@@ -43,15 +43,7 @@ const ChatInterface = () => {
         {/* Main Chat Area */}
         <div className="flex-1 flex items-center justify-center p-8">
           <div className="w-full max-w-4xl">
-            <div 
-              className="w-full h-96 bg-glass border border-glass-border backdrop-blur-md rounded-2xl relative overflow-hidden"
-              style={{
-                backgroundImage: `url(${mountainBg})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="absolute inset-0 bg-white/5 backdrop-blur-sm" />
+            <div className="w-full h-96 bg-glass border border-glass-border backdrop-blur-md rounded-2xl relative overflow-hidden">
               <div className="relative z-10 h-full flex items-center justify-center">
                 {/* Chat content area - empty for now */}
                 <div className="text-white/50 text-center">
@@ -86,7 +78,7 @@ const ChatInterface = () => {
                 </Button>
                 
                 <Button variant="glass" size="icon" className="rounded-full w-12 h-12">
-                  <ArrowRight className="w-5 h-5" />
+                  <ArrowRight className="w-5 h-5 text-white/70" />
                 </Button>
               </div>
             </div>
